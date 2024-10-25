@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
+    <title>Crypto Portfolio</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'YOUR_TRACKING_ID');
+    </script>
 </head>
 <body>
-    <h1>My Crypto Trading Screenshots</h1>
-    <img src="Gallery/IMG_2248.png" alt="Screenshot 1">
-    <img src="Gallery/IMG_2249.png" alt="Screenshot 2">
-    <img src="Gallery/IMG_2250.png" alt="Screenshot 3">
-    <img src="Gallery/IMG_2251.png" alt="Screenshot 4">
-    <img src="Gallery/IMG_2252.png" alt="Screenshot 5">
-    <img src="Gallery/IMG_2253.png" alt="Screenshot 6">
-    <img src="Gallery/IMG_2254.png" alt="Screenshot 7">
-    <img src="Gallery/IMG_2255.png" alt="Screenshot 8">
-    <img src="Gallery/IMG_2256.png" alt="Screenshot 9">
-    <img src="Gallery/screenshot.jpg" alt="Screenshot 10">
+    <h1>Welcome to My Crypto Portfolio</h1>
+    <p>This is where I showcase my trading achievements and strategies.</p>
+    <img src="path/to/your-photo.jpg" alt="My Photo" style="width:200px;height:auto;">
+    <a href="https://www.tradingview.com/?aff_id=124294">
+        <img src="path/to/tradingview-logo.png" alt="TradingView" style="width:50px;height:auto;">
+    </a>
 </body>
 </html>
